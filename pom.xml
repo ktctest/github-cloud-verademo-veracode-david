@@ -142,17 +142,17 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<version>${spring-boot.version}</version>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<debug>true</debug>
-					<debuglevel>lines,vars,source</debuglevel>
-					<compilerArgs>
-						<args>-g:source,lines,vars</args>
-					</compilerArgs>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-compiler-plugin</artifactId>-->
+<!--				<configuration>-->
+<!--					<debug>true</debug>-->
+<!--					<debuglevel>lines,vars,source</debuglevel>-->
+<!--					<compilerArgs>-->
+<!--						<args>-g:source,lines,vars</args>-->
+<!--					</compilerArgs>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 </project>
