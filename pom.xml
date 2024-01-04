@@ -140,15 +140,17 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring-boot.version}</version>
 			</plugin>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<debug>true</debug>
 					<debuglevel>lines,vars,source</debuglevel>
-					<compilerargs>
-						<arg>-g:source,lines,vars</arg>
-					</compilerargs>
+					<compilerArgs>
+						<args>-g:source,lines,vars</args>
+					</compilerArgs>
 				</configuration>
 			</plugin>
 		</plugins>

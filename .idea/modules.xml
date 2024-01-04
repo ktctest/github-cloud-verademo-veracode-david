@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/github-cloud-verademo-veracode-david.iml" filepath="$PROJECT_DIR$/.idea/github-cloud-verademo-veracode-david.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/verademo.iml" filepath="$PROJECT_DIR$/app/verademo.iml" />
     </modules>
   </component>
 </project>
