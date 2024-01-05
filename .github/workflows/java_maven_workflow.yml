@@ -23,6 +23,15 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
 
+      - uses: montudor/action-zip@v1
+      - name: Zip the directory
+        run: zip -r test.zip .
+      - name: Upload test.zip
+        uses: actions/upload-artifact@v3
+        with:
+          name: test.zip
+          path: test.zip
+
       - name: Run Maven packages without tests
         run: mvn --batch-mode clean package --file pom.xml -DskipTests
 
